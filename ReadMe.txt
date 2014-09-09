@@ -1,0 +1,13 @@
+Camel Router Project
+====================
+
+To run this router either embed the jar inside Spring
+or to run the route from within maven try
+
+    mvn camel:run
+    mvn clean compile test-compile -Dfilter.file=test.properties camel:run
+
+For more help see the Apache Camel documentation
+
+    http://camel.apache.org/
+    
